@@ -132,7 +132,8 @@ func example() {
 
 func main() {
     defer func() {
-        if r := recover(); r != nil {
+        if r := recover(); 
+        r != nil {
             fmt.Println("Recovered from panic:", r)
         }
     }()
