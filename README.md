@@ -8,3 +8,4 @@ This repository is dedicated to learning Go for server-side development. It will
 
 - slice
 - maps
+- functions
